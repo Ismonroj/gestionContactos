@@ -1,0 +1,1 @@
+Esta aplicación permite gestionar contactos desde la línea de comandos.
