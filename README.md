@@ -12,7 +12,7 @@ Paso 2: Inicializa un repositorio Git:
 git init
 
 Paso 3:Crea un archivo README.md para documentar tu proyecto:
-
+New-Item -ItemType File -path "README.md"
 # Aplicación de Gestión de Contactos
 
 Paso 4: Esta aplicación permite gestionar contactos desde la línea de comandos.
