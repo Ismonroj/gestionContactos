@@ -16,7 +16,11 @@ def eliminarContactos(nombre):
 def buscarContacto(nombre):
     encontrado = False
     for contacto in contactos:
+<<<<<<< HEAD
         if contacto['nombre'] == nombre:
+=======
+        if contacto["nombre"] == nombre:
+>>>>>>> 49057ecfa846af8bd243ffca8669e15fcf7cc154
             print(f"Nombre: {contacto['nombre']}, Teléfono: {contacto['telefono']}, Email: {contacto['email']}")
             encontrado = True
             break
